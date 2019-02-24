@@ -1,0 +1,23 @@
+{
+  "name": "accessible-html5-dialog-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cat node_modules/accessibility-js-routines/dist/accessibility-es4.js js/dialog-polyfill.js js/dialog-polyfill-a11y-fixes.js > js/accessible-html5-dialog.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoltan-dulac/accessible-html5-dialog-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoltan-dulac/accessible-html5-dialog-demo/issues"
+  },
+  "homepage": "https://github.com/zoltan-dulac/accessible-html5-dialog-demo#readme",
+  "dependencies": {
+    "accessibility-js-routines": "^1.6.3"
+  }
+}
