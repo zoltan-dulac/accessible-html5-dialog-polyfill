@@ -158,6 +158,11 @@ h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+aside h2 {
+  margin-left: calc(70px + 1em);
+}
+
 ul,
 ol {
   padding-left: 3rem;
@@ -167,7 +172,7 @@ ul {
 }
 ul,
 p {
-  margin-top: 0.5rem;
+  margin-top: 37px;
   margin-bottom: 0.5rem;
 }
 .example h1 {
@@ -441,10 +446,11 @@ aside,
   display: block;
   background: #ddd url('../images/bomb.png') no-repeat 1em 1em;
   margin: 1em auto;
-  padding: 1em 1em 1em calc(100px + 2em);
+  padding: 1em 1em 1em 1em;
   min-height: calc(109px);
   border: solid 1px black;
   box-shadow: 4px 4px 0 black;
+  background-size: 70px 70px;
 }
 aside h3,
 [role="complementary"] h3 {
@@ -483,6 +489,7 @@ dialog {
   background: white;
   color: black;
   display: block;
+  max-width: calc(100vw - 70px);
 }
 dialog:not([open]) {
   display: none;
